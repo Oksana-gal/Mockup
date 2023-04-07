@@ -5,6 +5,8 @@
 
 body {
     max-width: 1920px;
+    background-color: #FFFFFF;
+
 }
 
 a {
@@ -12,6 +14,8 @@ a {
 }
 
 .header {
+    padding-top: 40px;
+    padding-left: 110px;
     display: flex;
     gap: 500px;
 
@@ -29,7 +33,7 @@ a {
 }
 
 .header_menu a {
-    justify-content: flex-end;
+
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -39,16 +43,19 @@ a {
     color: #F25822;
 }
 
-
 .content {
     display: flex;
+    margin-top: 149px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
     gap: 39px;
 }
 
 .content-left {
+    padding: 10px;
     margin-left: calc(50% - 480px);
-    width: 50%;
+    width: 30%;
 }
 
 .content_left_headding {
@@ -67,6 +74,8 @@ a {
 
 .content_left_button {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 button {
@@ -81,7 +90,7 @@ button {
 }
 
 .text {
-
+    padding-top: 18px;
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
@@ -91,7 +100,7 @@ button {
 
 .content_right_image {
     margin-right: calc(50% - 480px);
-    width: 50%;
+    width: 30%;
 
 }
 
