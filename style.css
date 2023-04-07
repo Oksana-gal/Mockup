@@ -39,6 +39,7 @@ a {
     color: #F25822;
 }
 
+
 .content {
     display: flex;
     justify-content: center;
@@ -80,8 +81,7 @@ button {
 }
 
 .text {
-    display: flex;
-    justify-content: center;
+
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
