@@ -11,7 +11,7 @@
     src: url('./Gilroy-Bold.ttf');
     src: url('./Gilroy-Bold.woff') format('woff');
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 @font-face {
@@ -19,5 +19,5 @@
     src: url('./Gilroy-Medium.ttf');
     src: url('./Gilroy-Medium.woff') format('woff');
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
 }
